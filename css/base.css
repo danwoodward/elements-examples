@@ -663,3 +663,15 @@ footer {
   cursor: default;
   color: #6772e5;
 }
+
+html[lang="ja"] .locale-reversible-vertical {
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+html[lang="ja"] .locale-reversible-horizontal {
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row-reverse;
+}

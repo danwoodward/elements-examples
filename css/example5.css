@@ -8,9 +8,6 @@
   font-weight: 400;
 }
 
-.example.example5 form {
-}
-
 #example5-paymentRequest {
   max-width: 500px;
   width: 100%;
@@ -19,7 +16,7 @@
 
 .example.example5 fieldset {
   border: 1px solid #b5a4ed;
-  padding: 15px;
+  padding: 15px 10px;
   border-radius: 6px;
 }
 
@@ -53,10 +50,7 @@
 .example.example5 .field {
   position: relative;
   width: 100%;
-}
-
-.example.example5 .field + .field {
-  margin-left: 10px;
+  margin: 0 5px;
 }
 
 .example.example5 label {
@@ -134,9 +128,9 @@
 
 .example.example5 button {
   display: block;
-  width: 100%;
+  width: calc(100% - 10px);
   height: 40px;
-  margin: 20px 0 0;
+  margin: 20px 5px 0;
   background-color: #fff;
   border-radius: 6px;
   color: #9169d8;
